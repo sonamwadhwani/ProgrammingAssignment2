@@ -1,6 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
+## Programming Assingment 2
 ## This is setter and getter function for matrix and inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
