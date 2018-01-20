@@ -1,3 +1,6 @@
+
+
+
 ## Programming Assingment 2
 ## This is setter and getter function for matrix and inverse matrix
 
@@ -30,3 +33,16 @@ cacheSolve <- function(x, ...) {
   x$setinversematrix(m)
   m
 }
+
+####Example 1 [2*2 Matrix] ##### 
+
+
+TestMatrix <- matrix(1:4,2,2) 
+
+CacheMatrix <- makeCacheMatrix(TestMatrix) 
+
+CacheMatrix$getInverse() 
+
+cacheSolve(CacheMatrix) 
+
+cacheSolve(CacheMatrix)  ## This one shows how the inverse matrix is retrieved from Cache
